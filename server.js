@@ -20,10 +20,6 @@ client.on("message", message=> {
   .setFooter("")
   message.channel.send(embed)
   }
-  client.on("message", message=> {
-  if(message.content === "YYneko") {
-    message.channel.send(<div class="tenor-gif-embed" data-postid="15501230" data-share-method="host" data-width="100%" data-aspect-ratio="0.748995983935743"><a href="https://tenor.com/view/anime-happy-dance-cat-girl-gif-15501230">Anime Happy GIF</a> from <a href="https://tenor.com/search/anime-gifs">Anime GIFs</a></div><script type="text/javascript" async src="https://tenor.com/embed.js"></script>)
-}
 });
 
 
