@@ -1,5 +1,6 @@
 let Discord = require("discord.js")
 let client = new Discord.Client()
+client.login("ODM4NTkyMTQ4NjAwNjUxNzc2.YI9VzA.KFAc0XnAeSTdCRQfHVORrOHh5G0")
 
 client.on("ready", () => {
   client.user.setPresence({ activity: { name: "with myself"} })
@@ -25,7 +26,6 @@ client.on("message", message=> {
 }
 });
 
-client.login("ODM4NTkyMTQ4NjAwNjUxNzc2.YI9VzA.KFAc0XnAeSTdCRQfHVORrOHh5G0")
 
 client.on("message", message=> {
   if(message.content === "Yirm") {
