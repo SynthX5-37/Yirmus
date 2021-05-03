@@ -9,7 +9,6 @@ client.on("message", message=> {
   let embed = new Discord.MessageEmbed()
   .setTitle("Command List")
   .setDescription("Yirm or yirm: replies Yirm!")
-  .setDescription("Y")
   .setColor("Blue")
   .setFooter("You're Welcome")
   message.channel.send(embed)
