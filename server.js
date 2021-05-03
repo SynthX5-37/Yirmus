@@ -10,11 +10,7 @@ client.on("message", message=> {
   if(message.content === "yirm") {
     message.channel.send("Yirm!")
 }
-client.on("message", message=> {
-  if(message.content === "Yirm") {
-    message.channel.send("Yirm!")
-}
-})
+
   if(message.content === "YYhelp") {
   let embed = new Discord.MessageEmbed()
   .setTitle("Command List")
@@ -23,7 +19,16 @@ client.on("message", message=> {
   .setFooter("You're Welcome")
   message.channel.send(embed)
   }
-})
+  if(message.content === "?sendimage") {
+    let image = new Discord.MessageAttachment()
+  }
+});
 
 client.login("ODM4NTkyMTQ4NjAwNjUxNzc2.YI9VzA.KFAc0XnAeSTdCRQfHVORrOHh5G0")
+
+client.on("message", message=> {
+  if(message.content === "Yirm") {
+    message.channel.send("Yirm!")
+}
+})
 
