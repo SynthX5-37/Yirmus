@@ -7,9 +7,14 @@ setInterval (
   
 () => 
 require("node-fetch")(process.env.URL).then(() =>
-console.log('[${++count}] My Ping Is There ${process.env.}')
-
-//ODM4NTkyMTQ4NjAwNjUxNzc2.YI9VzA.KFAc0XnAeSTdCRQfHVORrOHh5G0 <<yirmus token
+console.log('[${++count}] My Ping Is There ${process.env.URL}')
+                                            
+).
+  
+  300000
+  );
+                                            
+// <<There is token
 
 client.on("ready", () => {
   client.user.setPresence({ activity: { name: "YYhelp"} })
