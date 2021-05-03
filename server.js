@@ -1,6 +1,15 @@
 let Discord = require("discord.js")
 let client = new Discord.Client()
-client.login("ODM4NTkyMTQ4NjAwNjUxNzc2.YI9VzA.KFAc0XnAeSTdCRQfHVORrOHh5G0")
+client.login(process.env.BOT_TOKEN);
+
+let count = 0;
+setInterval (
+  
+() => 
+require("node-fetch")(process.env.URL).then(() =>
+console.log('[${++count}] My Ping Is There ${process.env.}')
+
+//ODM4NTkyMTQ4NjAwNjUxNzc2.YI9VzA.KFAc0XnAeSTdCRQfHVORrOHh5G0 <<yirmus token
 
 client.on("ready", () => {
   client.user.setPresence({ activity: { name: "YYhelp"} })
