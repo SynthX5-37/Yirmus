@@ -21,7 +21,7 @@ client.on("message", message=> {
   message.channel.send(embed)
   }
   if(message.content === "?sendimage") {
-    let image = new Discord.MessageAttachment()
+    let image = new Discord.MessageAttachment(https://tenor.com/view/anime-happy-dance-cat-girl-gif-15501230)
     message.channel.send(image)
 }
 });
