@@ -3,7 +3,7 @@ let client = new Discord.Client()
 client.login("ODM4NTkyMTQ4NjAwNjUxNzc2.YI9VzA.KFAc0XnAeSTdCRQfHVORrOHh5G0")
 
 client.on("ready", () => {
-  client.user.setPresence({ activity: { name: "with myself"} })
+  client.user.setPresence({ activity: { name: "YYhelp"} })
   
 })
 
