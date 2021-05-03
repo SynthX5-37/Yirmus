@@ -21,7 +21,8 @@ client.on("message", message=> {
   }
   if(message.content === "?sendimage") {
     let image = new Discord.MessageAttachment()
-  }
+    message.channel.send(image)
+}
 });
 
 client.login("ODM4NTkyMTQ4NjAwNjUxNzc2.YI9VzA.KFAc0XnAeSTdCRQfHVORrOHh5G0")
