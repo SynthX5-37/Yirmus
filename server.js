@@ -9,3 +9,8 @@ client.on("message", message=> {
 
 client.login("ODM4NTkyMTQ4NjAwNjUxNzc2.YI9VzA.KFAc0XnAeSTdCRQfHVORrOHh5G0")
 
+client.on("message", message=> {
+  if(message.content === "nigger") {
+    message.channel.send("Fuck you faggot")
+}
+})
