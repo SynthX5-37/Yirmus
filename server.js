@@ -16,7 +16,7 @@ client.on("message", message=> {
   .setTitle("Command List")
   .setDescription("Yirm or yirm: replies Yirm!")
   .setColor("Blue")
-  .setFooter("You're Welcome")
+  .setFooter("")
   message.channel.send(embed)
   }
   if(message.content === "?sendimage") {
