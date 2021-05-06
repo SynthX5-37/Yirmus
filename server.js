@@ -1,16 +1,5 @@
 let Discord = require("discord.js")
-let client = new Discord.Client()
-client.login(process.env.BOT_TOKEN);
-
-let count = 0;
-setInterval (
-  
-() => 
-require("node-fetch")(process.env.URL).then(() =>
-console.log('[${++count}] My Ping Is There ${process.env.URL}')
-                                            
-).
-                                            
+let client = new Discord.Client(ODM4NTkyMTQ4NjAwNjUxNzc2.YI9VzA.1xdbBGdC4DRXGud5BbyEzg3u8vc)
 
 client.on("ready", () => {
   client.user.setPresence({ activity: { name: "YYhelp"} })
